@@ -168,8 +168,7 @@ int main()
 
 
             displayStack();
-            printf("\t\t%s\t\tShift\n",
-                   input + inputPosition);
+            printf("\t\t%s\t\tShift\n", input + inputPosition);
         }
         else if (table[row][column] == '>')
         {

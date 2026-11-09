@@ -18,8 +18,6 @@ int isNonTerminal(char c)
 void add(char set[], char c)
 {
     int i;
-
-
     for (i = 0; set[i] != '\0'; i++)
         if (set[i] == c)
             return;
